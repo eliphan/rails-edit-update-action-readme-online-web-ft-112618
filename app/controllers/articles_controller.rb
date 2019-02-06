@@ -29,4 +29,6 @@ class ArticlesController < ApplicationController
     @article.update(title: params[:title], description: params[:description])
     redirect_to article_path(@article)
   end
+  
+  
 end
